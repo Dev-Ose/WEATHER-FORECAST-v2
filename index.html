@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="weather-app">
+
+        <header class="app-header">
+            <div>
+                <p class="eyebrow">WEATHER</p>
+                <h1>Forecast.</h1>
+            </div>
+
+            <div class="header-symbol">°</div>
+        </header>
+
+        <section class="search-section">
+            <div class="search-bar">
+                <input 
+                    type="text" 
+                    id="city-input" 
+                    placeholder="Enter a city..."
+                    autocomplete="off"
+                >
+
+                <button id="search-btn">
+                    Search
+                </button>
+            </div>
+        </section>
+
+        <section id="weather-display">
+            <div class="empty-state">
+                <span class="empty-icon">◌</span>
+                <h2>Search For A City</h2>
+                <p>Enter A Location Above To See The Current Weather . . .</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
