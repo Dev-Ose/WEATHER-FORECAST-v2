@@ -1,22 +1,47 @@
-# Weather Forecast App
+# 🇳🇬 NAIJA-BITES
 
-A clean, responsive web application that displays real-time weather information for any city using the OpenWeatherMap API.
+[![Deployment Status](https://img.shields.io/badge/Vercel-Live--Demo-brightgreen?logo=vercel)](https://naija-bites-tau.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Live Demo
-🔗 [View it live](https://weather-forecast-v2-rho.vercel.app/)
 
-## Features
+A modern, responsive web application for discovering and exploring authentic Nigerian food recipes. Built with pure JavaScript, HTML5, and CSS3, featuring a clean and intuitive user experience across mobile, tablet, and desktop screens.
 
-- **Real-Time Data**: Fetches live temperature, weather conditions, humidity, wind speed, and "feels like" metrics.
-- **Search Functionality**: Search by city name via button click or by pressing the `Enter` key.
-- **Error Handling**: Graceful error UI feedback for empty input fields, non-existent cities (404), and API authorization issues (401).
-- **Dynamic Loading UI**: Disables the search button and displays a loading state while fetching data to prevent duplicate API calls.
-- **Clean & Modern UI**: Semantic HTML structure paired with dynamic CSS card renders.
+🌐 **Live Demo:** [https://naija-bites-tau.vercel.app](https://naija-bites-tau.vercel.app/)
 
-## Tech Stack
+🚀 Key Features
+Recipe Search & Discovery: Easily search and filter through local Nigerian dishes and delicacies.
 
-- **HTML5**: Structured markup using semantic layout tags.
-- **JavaScript (ES6+)**: Fetch API, DOM manipulation, async promise handling, and event listeners.
-- **OpenWeatherMap API**: REST API used for retrieving metric weather metrics.
+Responsive Layout: Optimized interface tailored for seamless navigation on both mobile and desktop devices.
 
-## File Structure
+Detailed Preparation Instructions: Clear breakdown of ingredients and step-by-step cooking steps.
+
+🛠️ Tech Stack
+Frontend: HTML5, CSS3, JavaScript (ES6+)
+
+Deployment & Hosting: Vercel
+
+Version Control: Git & GitHub
+
+Project Structure
+
+Naija-Bites/
+├── index.html        # Main HTML layout & entry point
+├── style.css         # Styling, design rules & responsive layouts
+├── app.js            # Dynamic application logic & user interaction
+└── assets/           # Application images, icons, and media files
+
+💻 Local Setup & Development
+
+If you'd like to inspect or run this project locally on your machine:
+
+Clone the repository:
+
+git clone [https://github.com/Dev-Ose/NAIJA-BITES.git](https://github.com/Dev-Ose/NAIJA-BITES.git)
+
+Navigate into the directory:
+
+cd NAIJA-BITES
+
+Launch the app:
+
+Open index.html directly in your browser or serve it using VS Code's Live Server extension.
